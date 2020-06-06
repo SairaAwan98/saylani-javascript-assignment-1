@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- ============ chapter 1 Alerts ========================= -->
+<!-- task 7 -->
+    <script type="text/javascript">
+    function hello(){
+        alert("hello world")
+    }
+    </script>
+<!-- ================================================================== -->
+
+
+</head>
+<body>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<!-- ============ chapter 1 Alerts ========================= -->
+<!-- task 7 -->
+    <input type="button" onclick="hello()" value="click here" class="btn btn-primary">
+    
+<!-- ============ chapter 1 Alerts ========================= -->
+<!-- task 7 -->
+<br>
+
+<script type="text/javascript">
+document.write("welcome to my web page")
+</script>
+
+<!-- ============ chapter 2 Variables ========================= -->
+<!-- task 8 -->
+<br>
+<script type="text/javascript">
+document.write(" YAH! I can write HTML content through javascript");
+</script>
+
+<!-- ============ chapter 3 Variables for numbers ========================= -->
+<!-- task 3 -->
+<br>
+<script type="text/javascript">
+var birthYear="1998";
+document.write("My birth year is "+birthYear+"\n Data type of my declared variable is number");
+</script>
+
+
+<!-- task 4 -->
+<br>
+<script type="text/javascript">
+
+var visitorName= prompt("enter your name");
+var productTitle=prompt("enter the name of product");
+var quantity=+prompt("enter the quantity of product");
+document.write(visitorName+" ordered "+quantity+" "+productTitle);</script>
+
+
+<!-- ============ chapter 5 maths expression ========================= -->
+<!-- task 1 -->
+<br>
+
+<script type="text/javascript">
+ var a=3;
+ var b= 5;
+ var c= a+b;
+ document.write("sum of "+a+" and "+b+" is "+c);</script>
+
+<!-- task 2 -->
+<br>
+
+<script type="text/javascript">
+    var a=10;
+    var b= 5;
+    var c= a-b;
+    var d=a/b;
+    var e=a*b;
+    var f=a%b;
+    document.write("subtraction of "+a+" and "+b+" is "+c+"<br>");
+    document.write("division of "+a+" and "+b+" is "+d+"<br>");
+    document.write("multiplication of "+a+" and "+b+" is "+e+"<br>");
+    document.write("modulus of "+a+" and "+b+" is "+f+"<br>");
+    </script>
+
+<!-- task 3 -->
+<br>
+<script type="text/javascript">
+var beta;
+document.write(" value  after declaration "+beta+"<br>");
+beta=20;
+document.write("after initialization value becomes "+beta+"<br>");
+beta++;
+document.write("after inrrement it becomes "+beta+"<br>");
+beta=beta+7;
+document.write("after addition it becomes "+beta+"<br>");
+beta--;
+document.write("after decrement it becomes "+beta+"<br>");
+beta=beta%3;
+document.write("after modulus operation it becomes "+beta+"<br>");
+</script>
+
+<!-- task 4 -->
+<br>
+<script type="text/javascript"> 
+
+var cost=600;
+var tickets=+prompt("enter number of tickets you want to purchase");
+var totalCost= cost*tickets;
+document.write(" total cost to buy "+tickets+" is "+totalCost+" Rs");
+</script>
+
+<!-- task 5 -->
+<br>
+<script type="text/javascript">
+
+for (i=1;i<=10;i++){
+
+    document.write("3 x "+i+" = "+3*i+"<br>");
+
+}
+</script>
+
+
+<!-- task 6 -->
+<br>
+
+<script type="text/javascript">
+var p1=650;
+var p2=100;
+var qty1=3;
+var qty2=7;
+
+document.write(" price of item 1 is "+p1+"<br>");
+document.write("quantity of item 1 is "+qty1+"<br>");
+document.write(" price of item 2 is "+p2+"<br>"); 
+document.write("quantity of item 2 is "+qty2+"<br>");
+var price1=p1*qty1;
+var price2=p2*qty2;
+var totalShipping=price1+price2;
+document.write(" total shipping price "+totalShipping);
+</script>
+
+
+<!-- task 8 -->
+<br>
+<script type="text/javascript">
+    var obt= 723;
+    var totalMarks=850;
+    document.write(" percentage is "+(obt/totalMarks)*100);
+</script>
+
+<!-- task 9 -->
+<br>
+<br>
+<script type="text/javascript">
+var init=5;
+document.write(((init+5)*10)/2);
+</script>
+
+<!-- ==================== chapter 6 to 9 =========================== -->
+<!-- task 1 -->
+<br>
+<script type="text/javascript">
+var aa=2;
+var bb=1;
+var result= --a - --b + ++b + b--; 
+document.write("result of  --a - --b + ++b + b--;  is "+result);
+</script>
+
+<!-- task 2 -->
+<br>
+<script type="text/javascript"> 
+
+var sub1=prompt("enter first subject");         
+var sub2=prompt("enter second subject");         
+var sub3=prompt("enter third subject");  
+var marks1=+prompt(" enter "+sub1+" marks");  
+var marks2=+prompt(" enter "+sub2+" marks");  
+var marks3=+prompt(" enter "+sub3+" marks");      
+var ttl=marks1+marks2+marks3;
+var prc=(ttl/300)*100;
+
+document.write("subjects || total marks  ||  obt marks || percentage"+"<br>");
+document.write(sub1+" ||   100  ||  "+marks1+"  ||  "+(marks1/100)*100+" % "+"<br>");
+document.write(sub2+" ||   100  ||  "+marks2+"  ||  "+(marks2/100)*100+" % "+"<br>");
+document.write(sub2+" ||   100  ||  "+marks3+"  ||  "+(marks3/100)*100+" % "+"<br>");
+document.write(" total marks : 300           obtained marks: "+ttl+"  percentage: "+ prc+" %"+"<br>")
+</script>
+
+<!-- ======================== chapter 9 to 11 USER INPUT & CONDITIONAL STATEMENT ================================ -->
+<!-- task 1 -->
+
+<br>
+<br>
+<br>
+<script type="text/javascript">
+var city=prompt("enter your city");
+if( city==="karachi"){
+    alert("welcome to city of lights");
+}
+</script>
+
+<!-- task 2-->
+
+<br>
+<br>
+<br>
+<script type="text/javascript">
+var gender=prompt("enter your gender");
+if( gender==="male"){
+    alert("good morning sir");
+}
+else if(gender==="female"){
+    alert("good morning madam");
+
+}
+</script>
+
+<!-- task 3 -->
+
+<br>
+<br>
+<br>
+<script type="text/javascript">
+var fuel=+prompt("enter remaining fuel in your car");
+if( fuel>=0.25){
+    alert("Please refill the fuel in your car");
+}
+</script>
+
+<!-- task 4 -->
+
+<br>
+<br>
+<br>
+<script type="text/javascript">
+var aaa = 4; 
+if (++aaa === 5)
+{ alert("given condition for variable a is true"); 
+} 
+var bbb = 82;
+ if (bbb++ === 83)
+ { alert("given condition for variable b is true"); } 
+ var ccc = 12;
+  if (ccc++ === 13){ alert("condition 1 is true"); } 
+  else if (ccc === 13){ alert("condition 2 is true"); }
+  else  if (++ccc < 14){ alert("condition 3 is true"); }
+   else if(ccc === 14){ alert("condition 4 is true"); } 
+ 
+ 
+ 
+ 
+</script>
+
+
+
+
+
+
+</body>
+</html>
